@@ -1,3 +1,7 @@
+Part 3: https://www.youtube.com/watch?v=ByqLscgK90s&list=PLgcPxVODYXGLe7dherj91PRA0MyBvWswN&index=3
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
