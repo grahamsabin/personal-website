@@ -26,7 +26,7 @@ body {
 
 header {
     height: 80px;
-    width: 100%;
+    width: 95%;
     position: absolute;
     top: 0px;
     z-index: 10;
@@ -56,6 +56,37 @@ header {
                         margin-right: 0px;
                     }
                 }
+            }
+        }
+    }
+}
+
+//Banner
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    position: relative;
+    height: 100vh;
+    .row {
+        position: relative;
+        .main-text{
+            font-size: 5.8rem;
+            text-transform: uppercase;
+            letter-spacing: 42px;
+            font-weight: 700;
+            color: $white;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            mix-blend-mode: difference;
+            z-index: 9;
+            @media (max-width = 1440px) {
+                font-size: 4.4rem;
+                letter-spacing: 36px;
             }
         }
     }

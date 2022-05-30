@@ -3,12 +3,15 @@ import "../styles/styles.scss"
 
 //import components
 import Header from "../components/header"
+import Banner from "../components/banner"
 
 
 const IndexPage = () => (
-  <Header>
-
-  </Header>
+  <div>
+    <Header/>
+    <Banner/>
+  </div>
+  
 )
 
 export default IndexPage
