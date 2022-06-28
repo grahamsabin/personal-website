@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: ;
+}
+
+    $black: '#010101',
+    $white: '#f7f8f7',
+    $darkgreen: '#006e49',
+    $lightgreen: '#6c9536',
+    $yellow: '#f2c92a',
+    navy: '#07077e',
+    lightblue: '#05d6ed',
+    red: '#f92609',
+    gray: '#979797',
+    pink: '#fd6f7b',
+    tan: '#ebdcc3'
