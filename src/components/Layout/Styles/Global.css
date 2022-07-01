@@ -1,3 +1,5 @@
+
+@import {COLORS} from './Colors.js'
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 
@@ -9,8 +11,19 @@
     font-family: "Montserrat";
     color: ;
 }
+html, body {
+    min-height: 100%;
+}
+body {
+    background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+    background-repeat: no-repeat;
+}
+p {
+    margin: 16px auto;
+    line-height: 1.5em;
+}
 
-    $black: '#010101',
+    /* $black: '#010101',
     $white: '#f7f8f7',
     $darkgreen: '#006e49',
     $lightgreen: '#6c9536',
@@ -20,4 +33,4 @@
     red: '#f92609',
     gray: '#979797',
     pink: '#fd6f7b',
-    tan: '#ebdcc3'
+    tan: '#ebdcc3' */
